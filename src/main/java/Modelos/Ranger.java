@@ -8,6 +8,13 @@ package Modelos;
  *
  * @author usuario
  */
-public class Ranger {
+public class Ranger extends Personaje{
     
+    public Ranger(String nombre, int constitucion) {
+        super(nombre, constitucion);
+    }
+    @Override
+    public String realizarAtaque(){
+      return "dispara con una flecha letar desde las sombras";
+    }
 }
