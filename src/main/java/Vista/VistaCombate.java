@@ -15,6 +15,7 @@ public class VistaCombate {
         System.out.println("=====================================");
     }
     public void mostrarAtaque(String nombrePersonaje, String accionAtaque){
+        
         System.out.println("☄"+nombrePersonaje+"->"+ accionAtaque);
     } 
 }
