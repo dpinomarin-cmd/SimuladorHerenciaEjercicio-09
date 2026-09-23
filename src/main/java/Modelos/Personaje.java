@@ -34,6 +34,6 @@ public class Personaje {
     }
     
     public String realizarAtaque(){
-        return "realisa un ataque basico sin armas";
+        return "realisa un ataque basico sin armas a puño limpio ";
     }
 }
