@@ -8,7 +8,13 @@ package Modelos;
  *
  * @author usuario
  */
-public class Paladin {
-   
+public class Paladin extends Personaje {
+    public Paladin(String nombre, int constitucion) {
+        super(nombre, constitucion);
+    }
+    @Override
+    public String realizarAtaque(){
+        return "Golpea con su maso sagrado y hace un daño radiante..";
+    }
     
 }
